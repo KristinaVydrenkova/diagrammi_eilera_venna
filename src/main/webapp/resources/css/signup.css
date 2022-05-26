@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-color: rgb(204,255,204);
+}
+.registration_block{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+    width: 500px; /* Ширина блока */
+    height: 600px; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: -275px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -275px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 2px solid rgb(139,236,139);
+}
+.signin{
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 48%; /* Отступ в процентах от левого края окна */
+    width: 500px; /* Ширина блока */
+    height: 450px; /* Высота блока */
+    position: absolute; /* Абсолютное позиционирование блока */
+    margin-top: -225px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+    margin-left: -225px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 2px solid rgb(139,236,139);
+}
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.form{
+    margin-left: 10px;
+}
+.button{
+    height: 36px;
+    width: 308px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 2px solid rgb(139,236,139);
+    margin-left: 86px;
+    border-radius: 5px;
+    background-color: rgb(249 255 249);
+
+}
+.label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 86px;
+}
+.role_sector{
+    margin-left: 86px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.role_button{
+    margin-left: 86px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 26px;
+    width: 189px;
+    border: 2px solid rgb(139,236,139);
+    border-radius: 5px;
+    background-color: rgb(249 255 249);
+}
+.submit{
+    margin-left: 160px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 2px solid rgb(139,236,139);
+    border-radius: 5px;
+    background-color: rgb(249 255 249);
+}
+.text{
+    margin-left: 86px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: rgb(111 204 111);
+    font-weight: 400;
+    margin:30px;
+}
+.message{
+    color: red;
+    margin-left: 86px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.submit_signin{
+    margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 2px solid rgb(139,236,139);
+    border-radius: 5px;
+    background-color: rgb(249 255 249);
+}
+.back{
+    margin-left: 58px;
+}
